@@ -13,8 +13,8 @@ demo.state3.prototype = {
         addChangeStateEventListeners();
         
         sound = game.add.audio('pops');
-        sound.addMarker('low',0.4, 0.6);
-        sound.addMarker('high',1.2,1.5);
+        sound.addMarker('low',0.45, 0.6);
+        sound.addMarker('high',1.25,1.4);
         
         
         var b1 = game.add.button(100, 100,'button1', function(){
